@@ -1,0 +1,1 @@
+update CINF set InstallNo = -1, AliasUpd = null, CompanyHis = null

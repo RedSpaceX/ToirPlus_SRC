@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoLBot", "LoLBot\LoLBot.vcproj", "{D4E758C1-9B88-4A2E-9FF4-60E54CA4A790}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F50201A1-3370-4891-94FA-4A61A9AD2E06} = {F50201A1-3370-4891-94FA-4A61A9AD2E06}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InjectBot", "InjectBot\InjectBot.vcproj", "{F50201A1-3370-4891-94FA-4A61A9AD2E06}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Launcher", "Launcher\Launcher.vcproj", "{A80975F5-8DB4-4AD4-B681-9DA7DD2883A5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F50201A1-3370-4891-94FA-4A61A9AD2E06} = {F50201A1-3370-4891-94FA-4A61A9AD2E06}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaLib", "LuaLib\LuaLib.vcproj", "{467F106A-7480-43DB-9350-D6992BCCFE11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4E758C1-9B88-4A2E-9FF4-60E54CA4A790}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4E758C1-9B88-4A2E-9FF4-60E54CA4A790}.Debug|Win32.Build.0 = Debug|Win32
+		{D4E758C1-9B88-4A2E-9FF4-60E54CA4A790}.Release|Win32.ActiveCfg = Release|Win32
+		{D4E758C1-9B88-4A2E-9FF4-60E54CA4A790}.Release|Win32.Build.0 = Release|Win32
+		{F50201A1-3370-4891-94FA-4A61A9AD2E06}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F50201A1-3370-4891-94FA-4A61A9AD2E06}.Debug|Win32.Build.0 = Debug|Win32
+		{F50201A1-3370-4891-94FA-4A61A9AD2E06}.Release|Win32.ActiveCfg = Release|Win32
+		{F50201A1-3370-4891-94FA-4A61A9AD2E06}.Release|Win32.Build.0 = Release|Win32
+		{A80975F5-8DB4-4AD4-B681-9DA7DD2883A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A80975F5-8DB4-4AD4-B681-9DA7DD2883A5}.Debug|Win32.Build.0 = Debug|Win32
+		{A80975F5-8DB4-4AD4-B681-9DA7DD2883A5}.Release|Win32.ActiveCfg = Release|Win32
+		{A80975F5-8DB4-4AD4-B681-9DA7DD2883A5}.Release|Win32.Build.0 = Release|Win32
+		{467F106A-7480-43DB-9350-D6992BCCFE11}.Debug|Win32.ActiveCfg = Debug|Win32
+		{467F106A-7480-43DB-9350-D6992BCCFE11}.Debug|Win32.Build.0 = Debug|Win32
+		{467F106A-7480-43DB-9350-D6992BCCFE11}.Release|Win32.ActiveCfg = Release|Win32
+		{467F106A-7480-43DB-9350-D6992BCCFE11}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

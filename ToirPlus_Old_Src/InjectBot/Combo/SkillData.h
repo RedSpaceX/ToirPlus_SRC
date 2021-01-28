@@ -1,0 +1,553 @@
+#pragma once
+
+#define GLOBAL_RANGE			20000
+#define KHOANG_CACH_DUT_DIEM	5000
+#define KHOANG_CACH_THIEU_DOT	600
+#define KHOANG_CACH_HOI_MAU		800
+#define GIOI_HAN_DE_HOI_MAU		200
+#define SMITE_RANGE				500
+#define VISION_WARD_RANGE		625
+#define SATLUC_XUYENTHANG		60
+
+#define ITEM_CUNG_GO_ID						0x413
+#define ITEM_CUONG_CUNG_ID					0xc0d
+#define ITEM_SongKiem_ID					0xc0e	
+#define ITEM_GUOM_VO_DANH_ID				0xc51
+#define ITEM_KiemHaiTac_ID					0xc48
+#define ITEM_NANH_NASHOR_ID					0xc2b	//3115
+
+#define ITEM_TRUONG_HU_VO_ID				0xc3f	// +35% xuyen khang phep
+#define PERCENT_XUYENPHEP_TRUONGHUVO		40
+
+#define ITEM_CUNG_XANH_ID					0xbdb   // +30% xuyen giap
+#define PERCENT_XUYENGIAP_CUNGXANH			30
+
+#define ITEM_LOINHACTUVONG_ID				0xbd9	// +45% xuyen giap
+#define PERCENT_XUYENGIAP_LOINHACTUVONG		45
+#define ITEM_NO_THAN_ID						0xbdc	// +45% xuyen giap
+#define PERCENT_XUYENGIAP_NOTHAN			45
+
+#define ITEM_KIEM_DORAN_ID					0x41F	
+#define ITEM_Nhan_DORAN_ID					0x420	
+#define ITEM_KIEM_BF_ID						0x40E
+#define ITEM_AoChoangTim_ID					0x3FA
+#define ITEM_GIAY_CUONGNO_ID				0xBBE
+#define ITEM_GIAY_PhapSu_ID					0xbcc
+#define ITEM_GIAY_Lonia_ID					0xc56
+#define ITEM_VOCUCKIEM_ID					0xBD7
+#define ITEM_LuoiHaiTuThan_ID				0xdb4
+#define ITEM_DAODIEN_STATIKK_ID				0xC0F
+#define ITEM_HUYETKIEM_ID					0xC00		
+#define ITEM_LamNgoc_ID						0x403	
+#define ITEM_NuocMat_ID						0xbfe	
+#define ITEM_CuocChim_ID					0x40d	
+#define ITEM_KiemMuRa_ID					0xbbc
+#define ITEM_ThanKiemMuRa_ID				0xbe2
+#define ITEM_ThuyKiem_ID					0xbf1	
+#define ITEM_GangTayBangGia_ID				0xbd1
+#define ITEM_KiemChich_ID					0xc1d
+#define ITEM_TamHopKiem_ID					0xc06
+
+#define ITEM_AoVai_ID						0x409
+#define ITEM_KiemRangCua_ID					0xc53
+#define ITEM_ChuyGai_ID						0xc54
+#define ITEM_AoChoangBac_ID					0x421
+
+#define ITEM_SachQuy_ID						0xc24
+#define ITEM_QuyThuMore_ID					0xc5d
+#define ITEM_CocHaiHoa_ID					0xbd4
+#define ITEM_CocQuyAthe_ID					0xc66
+#define ITEM_DaVinhHang_ID					0xbc2
+#define ITEM_TruongTruongSinh_ID			0xbd3
+#define ITEM_DongHoCat_ID					0xc55
+#define ITEM_GayQuaKho_ID					0x422
+#define ITEM_MuPhuThuy_ID					0xc11
+
+//#define ITEM_DAO_TIM_ID				0x11112222
+
+#define KALISTA_Q_RANGE		1100
+#define KALISTA_Q_RADIUS	55
+#define KALISTA_Q_SPEED		1700
+#define KALISTA_E_RANGE		1000
+
+#define RYZE_Q_RADIUS		55
+#define RYZE_Q_RANGE		1000
+#define RYZE_WE_RANGE		650
+
+// trong huong dan khoang cach cua Q-Xerath tu 740 -> 1400
+#define XERATH_Q_RANGE		600
+#define XERATH_Q_MAX_RANGE	1520
+#define XERATH_W_RANGE		1100
+#define XERATH_W_RADIUS		200
+#define XERATH_E_RANGE		1050
+#define XERATH_E_RADIUS		60
+#define XERATH_R1_RANGE		3200
+#define XERATH_R2_RANGE		4400
+#define XERATH_R3_RANGE		5600
+
+#define EZREAL_Q_RANGE		1150
+#define EZREAL_Q_RADIUS		50
+#define EZREAL_W_RANGE		1000
+#define EZREAL_E_RANGE		475
+#define EZREAL_R_RANGE		20000
+#define EZREAL_R_RADIUS		160
+
+#define GAREN_E_RANGE		325
+#define GAREN_R_RANGE		450
+
+#define DARIUS_Q_RANGE		440
+#define DARIUS_W_RANGE		300
+#define DARIUS_E_RANGE		555
+#define DARIUS_R_RANGE		500
+
+#define RIVEN_Q_RANGE		310
+#define RIVEN_E_RANGE		315
+#define RIVEN_W_RANGE		285
+#define RIVEN_QWE_RANGE		750
+#define RIVEN_WE_RANGE		600
+#define RIVEN_R_RANGE		1050
+
+#define PANTHEON_Q_RANGE	600
+#define PANTHEON_W_RANGE	600
+#define PANTHEON_E_RANGE	600
+
+#define ZED_Q_RANGE			950
+#define ZED_Q_RADIUS		60
+#define ZED_W_RANGE			650
+#define ZED_E_RANGE			300
+#define ZED_R_RANGE			700
+
+#define TWITCH_W_RANGE		950
+#define TWITCH_E_RANGE		1200
+
+#define BLITZCRANK_Q_RANGE	975
+#define BLITZCRANK_Q_RADIUS	60
+#define BLITZCRANK_E_RANGE	200
+#define BLITZCRANK_R_RANGE	600
+
+#define VEIGAR_Q_RANGE		900
+#define VEIGAR_Q_RADIUS		60
+#define VEIGAR_W_RANGE		900
+#define VEIGAR_W_RADIUS		250
+#define VEIGAR_E_RANGE		700
+#define VEIGAR_E_RADIUS		400
+#define VEIGAR_R_RANGE		700
+
+#define YASUO_Q12_RANGE		475
+#define YASUO_Q12_RADIUS	35
+#define YASUO_Q3_RANGE		1100
+#define YASUO_Q3_RADIUS		90
+#define YASUO_R_RANGE		1200
+
+#define BRAND_Q_RANGE		1050
+#define BRAND_Q_RADIUS		50
+#define BRAND_W_RANGE		900
+#define BRAND_W_RADIUS		250
+#define BRAND_E_RANGE		675
+#define BRAND_R_RANGE		800
+
+#define LEBLANC_Q_RANGE		700
+#define LEBLANC_W_RANGE		600
+#define LEBLANC_W_RADIUS	250
+#define LEBLANC_E_RANGE		950
+#define LEBLANC_E_RADIUS	50
+
+#define MORGANA_Q_RANGE		1175
+#define MORGANA_Q_RADIUS	80
+#define MORGANA_W_RANGE		900
+#define MORGANA_W_RADIUS	175
+#define MORGANA_E_RANGE		800
+// tren web de pham vi R la '625' || '600'
+#define MORGANA_R_RANGE		500
+
+#define LUX_Q_RANGE			1175
+#define LUX_Q_RADIUS		80
+#define LUX_W_RANGE			1075
+#define LUX_E_RANGE			1100
+#define LUX_R_RANGE			3340
+
+#define KARTHUS_Q_RANGE		900
+#define KARTHUS_Q_RADIUS	220
+#define KARTHUS_W_RANGE		1000
+#define KARTHUS_E_RANGE		475
+
+#define LEESIN_Q_RANGE		1300
+#define LEESIN_Q_RADIUS		65
+#define LEESIN_W_RANGE		700
+#define LEESIN_E_RANGE		400
+#define LEESIN_R_RANGE		425
+
+#define JINX_W_RANGE		1500
+#define JINX_W_RADIUS		65
+#define JINX_W_SPEED		3300
+#define JINX_E_RANGE		900
+#define JINX_Q_RANGE		565
+#define JINX_R_RADIUS		140
+#define JINX_R_SPEED		2200
+
+
+#define ASHE_Q_RANGE		800
+#define ASHE_W_RANGE		1250
+#define ASHE_W_RADIUS		50
+
+#define CAITLYN_Q_RANGE		1300
+#define CAITLYN_Q_RADIUS	95
+#define CAITLYN_W_RANGE		800
+#define CAITLYN_W_RADIUS	150
+#define CAITLYN_E_RANGE		950
+#define CAITLYN_E_RADIUS	85
+
+#define CASSIOPEIA_Q_RANGE	850
+#define CASSIOPEIA_Q_RADIUS	150
+#define CASSIOPEIA_W1_RANGE	550
+#define CASSIOPEIA_W2_RANGE	800
+// tren wikia, website de ban kinh la 160
+#define CASSIOPEIA_W_RADIUS	120
+#define CASSIOPEIA_E_RANGE	700
+#define CASSIOPEIA_R_RANGE	675
+#define CASSIOPEIA_R1_RANGE	350
+#define CASSIOPEIA_R2_RANGE	575
+
+#define SYNDRA_Q_RANGE		800
+#define SYNDRA_Q_RADIUS		250
+#define SYNDRA_W_RANGE		925
+#define SYNDRA_W_RADIUS		250
+#define SYNDRA_W_SPEED		1450
+#define SYNDRA_E_RANGE1		700
+#define SYNDRA_E_RANGE2		1100
+#define SYNDRA_E_RADIUS		1000000
+#define SYNDRA_E_SPEED		2000
+#define SYNDRA_R_RANGE1		675
+#define SYNDRA_R_RANGE2		750
+
+#define ANNIE_Q_RANGE		625
+#define ANNIE_W_RANGE		625
+#define ANNIE_R_RANGE		600
+#define ANNIE_R2_RANGE		725
+#define ANNIE_R3_RANGE		900
+
+#define VIKTOR_Q_RANGE		725
+#define VIKTOR_W_RANGE		750
+#define VIKTOR_E_RANGE1		525
+#define VIKTOR_E_RANGE2		1050
+#define VIKTOR_R_RANGE		720
+
+#define ANIVIA_Q_RANGE		1075
+#define ANIVIA_E_RANGE		600
+#define ANIVIA_W_RANGE		1000
+#define ANIVIA_R_RANGE		750
+#define ANIVIA_R_RADIUS1	200
+#define ANIVIA_R_RADIUS2	400
+
+#define AZIR_SOLDIERS_RANGE	 400
+#define AZIR_Q_RANGE		 725
+#define AZIR_W_RANGE1		 450
+#define AZIR_W_RANGE2		 800
+#define AZIR_E_RANGE		 1100
+#define AZIR_R_RANGE		 250
+
+#define	SWAIN_Q_RANGE		 700
+#define	SWAIN_W_RANGE		 1000
+#define	SWAIN_E_RANGE		 850
+#define	SWAIN_R_RANGE		 650
+
+#define	VLADIMIR_Q_RANGE		 650
+#define	VLADIMIR_W_RANGE		 350
+#define	VLADIMIR_E_RANGE		 600
+#define	VLADIMIR_R_RANGE		 700
+
+#define TEEMO_Q_RANGE		  700
+#define TEEMO_R1_RANGE		  400
+#define TEEMO_R2_RANGE		  650
+#define TEEMO_R3_RANGE		  900
+
+#define QUINN_Q_RANGE		  1050
+#define QUINN_Q_RADIUS		  80
+#define QUINN_E_RANGE		  675
+
+#define DR_MUNDO_Q_RANGE		1000
+#define DR_MUNDO_Q_RADIUS		60
+#define DR_MUNDO_W_RANGE		325
+
+#define KAYLE_Q_RANGE			650
+#define KAYLE_W_RANGE			900
+#define KAYLE_E_RANGE			525
+#define KAYLE_E_SPLASH			150
+#define KAYLE_R_RANGE			900
+
+#define ALISTAR_Q_RANGE		  365
+#define ALISTAR_W_RANGE		  650
+#define ALISTAR_E_RANGE		  300
+
+#define KARMA_Q_RANGE		  1000
+#define KARMA_Q_RADIUS		  100
+#define KARMA_W_RANGE		  675
+#define KARMA_E_RANGE		  800
+
+#define MISSFORTUNE_Q_RANGE		650
+#define MISSFORTUNE_Q2_RANGE	500
+#define MISSFORTUNE_Q2_RADIUS	100
+#define MISSFORTUNE_E_RANGE		1000
+#define MISSFORTUNE_E_RADIUS	200
+#define MISSFORTUNE_R_RANGE		1200
+
+#define KATARINA_Q_RANGE		650
+#define KATARINA_W_RANGE		350
+#define KATARINA_E_RANGE		725
+#define KATARINA_R_RANGE		550
+
+#define SORAKA_Q_RANGE			800
+#define SORAKA_Q_RADIUS			235
+#define SORAKA_W_RANGE			550
+#define SORAKA_E_RANGE			925
+#define SORAKA_E_RADIUS			250
+
+#define ILLAOI_Q_RANGE			800
+#define ILLAOI_W_RANGE			350
+#define ILLAOI_E_RANGE			900
+#define ILLAOI_R_RANGE			450
+
+#define THRESH_Q_RANGE		  1100
+#define THRESH_Q_RADIUS		  75
+#define THRESH_W_RANGE		  1000
+#define THRESH_E_RANGE		  450
+#define THRESH_R_RANGE		  500
+
+#define NIDALE_Q_RANGE				1500
+#define NIDALE_Q_RADIUS				50
+#define NIDALE_W_NGUOI_RANGE		900
+#define NIDALE_W_BAO_RANGE1			375
+#define NIDALE_W_BAO_RANGE2			750
+#define NIDALE_E_NGUOI_RANGE		600
+#define NIDALE_E_BAO_RANGE			300
+
+#define EVELYNN_Q_RANGE				500
+#define EVELYNN_E_RANGE				225
+#define EVELYNN_R_RANGE				650
+
+#define AHRI_Q_RANGE				880
+#define AHRI_W_RANGE				700
+#define AHRI_E_RANGE				975
+#define AHRI_E_RADIUS				70
+// pham vi pPlayer bay len
+#define AHRI_R_RANGE1				450
+// pham vi lua ban ra
+#define AHRI_R_RANGE2				600
+
+#define KENNEN_Q_RANGE				1000
+#define KENNEN_Q_RADIUS				80
+#define KENNEN_W_RANGE				750
+#define KENNEN_R_RANGE				500
+
+#define TALON_Q_RANGE		  550
+#define TALON_W_RANGE		  900
+#define TALON_R_RANGE		  550
+
+#define RENGAR_Q_RANGE		  550
+#define RENGAR_W_RANGE		  500
+#define RENGAR_E_RANGE		  1000
+#define RENGAR_E_RADIUS		  70
+
+#define KOGMAW_Q_RANGE			1175
+#define KOGMAW_Q_RADIUS			75
+#define KOGMAW_W_RANGE			600
+#define KOGMAW_E_RANGE			1280
+#define KOGMAW_R1_RANGE			1200
+#define KOGMAW_R2_RANGE			1500
+#define KOGMAW_R3_RANGE			1800
+
+#define	VARUS_Q_RANGE			925
+#define	VARUS_Q_RANGE_MAX		1625
+#define VARUS_Q_RADIUS			75
+#define	VARUS_E_RANGE			925
+#define	VARUS_R_RANGE			1075
+#define VARUS_R_RADIUS			120
+
+#define JHIN_Q_RANGE			550
+#define JHIN_W_RANGE			2500
+#define JHIN_E_RANGE			750
+#define JHIN_E_RADIUS			150
+#define JHIN_R_RANGE			3000
+
+#define LUCIAN_Q_RANGE			600
+#define LUCIAN_Q2_RANGE			950
+#define LUCIAN_Q_RADIUS			0
+#define LUCIAN_W_RANGE			1250
+#define LUCIAN_W_RADIUS			80
+#define LUCIAN_R_RANGE			1200
+#define LUCIAN_R_RADIUS			100
+
+#define GRAVES_Q_RANGE			925
+#define GRAVES_Q_RADIUS			60
+#define GRAVES_W_RANGE			950
+#define GRAVES_R_RANGE			1000
+#define GRAVES_R_RANGE_MAX		1500
+#define GRAVES_R_RADIUS			100
+
+#define KHAZIX_Q_RANGE		  375
+#define KHAZIX_W_RANGE		  1000
+#define KHAZIX_W_RADIUS		  70
+#define KHAZIX_E_RANGE		  700
+#define KHAZIX_E2_RANGE		  900
+#define KHAZIX_E_RADIUS		  275
+
+#define JARVAN4_Q_RANGE		  770
+#define JARVAN4_Q_RADIUS	  80
+#define JARVAN4_W_RANGE		  600
+#define JARVAN4_E_RANGE		  830
+#define JARVAN4_R_RANGE		  650
+
+#define TRYNDAMERE_W_RANGE	  850
+#define TRYNDAMERE_E_RANGE	  650
+#define TRYNDAMERE_E_SPEED	  600
+
+#define JAX_Q_RANGE			  700
+#define JAX_E_RANGE			  300
+
+#define SHACO_Q_RANGE		  400
+#define SHACO_W_RANGE		  450
+#define SHACO_E_RANGE		  650
+
+#define CORKI_Q_RANGE		  850
+#define CORKI_E_RANGE		  550
+#define CORKI_R1_RANGE		  1300
+#define CORKI_R2_RANGE		  1500
+#define CORKI_R_RADIUS		  50
+#define CORKI_R_SPEED		  1950
+
+#define VAYNE_Q_RANGE		  300
+#define VAYNE_E_RANGE		  550
+#define VAYNE_E_SPEED		  1200
+
+#define AMUMU_Q_RANGE		1100
+#define AMUMU_Q_RADIUS		80
+#define AMUMU_Q_SPEED		2000
+#define AMUMU_W_RANGE		300
+#define AMUMU_E_RANGE		350
+#define AMUMU_R_RANGE		550
+
+#define BRAUM_Q_RANGE		1000
+#define BRAUM_Q_RADIUS		80
+#define BRAUM_W_RANGE		650
+#define BRAUM_E_RANGE		25000
+#define BRAUM_R_RANGE		1200
+#define BRAUM_R_RADIUS		120
+
+#define NAMI_Q_RANGE		875
+#define NAMI_Q_RAIUS		110
+#define NAMI_W_RANGE		725
+#define NAMI_E_RANGE		800
+#define NAMI_R_RANGE		2550
+#define NAMI_R_RADIUS		250
+
+#define VELKOZ_Q_RANGE		1100
+#define VELKOZ_Q_RADIUS		60
+#define VELKOZ_W_RANGE		1100
+#define VELKOZ_W_RADIUS		90
+#define VELKOZ_E_RANGE		850
+#define VELKOZ_R_RANGE		1450
+
+#define ORIANNA_Q_RANGE		825
+#define ORIANNA_Q_RADIUS	175
+#define ORIANNA_W_RADIUS	215
+#define ORIANNA_E_RANGE		1100
+#define ORIANNA_R_RADIUS	390
+
+#define JANNA_Q_RADIUS		120
+#define JANNA_Q1_RANGE		850
+#define JANNA_Q2_RANGE		1740
+#define JANNA_W_RANGE		600
+#define JANNA_E_RANGE		800
+#define JANNA_R_MONSOON		725
+#define JANNA_R_RADIUS		875
+
+#define MALZAHAR_Q_RANGE	900
+#define MALZAHAR_Q_RADIUS	80
+#define MALZAHAR_Q_SPEED	2000
+#define MALZAHAR_W_RANGE	450
+#define MALZAHAR_E_RANGE	650
+#define MALZAHAR_R_RANGE	700
+
+#define SONA_AURA_RANGE		400
+#define SONA_Q_RANGE		850
+#define SONA_W_RANGE		1000
+#define SONA_E_RANGE		400
+#define SONA_R_RANGE		900
+#define SONA_R_RADIUS		140
+
+#define LULU_Q_RANGE		950
+#define LULU_Q_RADIUS		80
+#define LULU_Q_SPEED		1500
+#define LULU_W_RANGE		650
+#define LULU_E_RANGE		650
+#define LULU_R_RANGE		900
+
+#define CAMILLE_Q_RANGE		350
+#define CAMILLE_W_RANGE		610
+#define CAMILLE_E_RANGE		800
+#define CAMILLE_R_RANGE		500
+
+#define TALIYAH_Q_RANGE		1000
+#define TALIYAH_Q_RADIUS	90
+#define TALIYAH_W_RANGE		900
+#define TALIYAH_E_RANGE		800
+
+#define NUNU_Q_RANGE		125
+#define NUNU_W_RANGE		700
+#define NUNU_E_RANGE		550
+#define NUNU_R_RANGE		650
+
+#define CHOGATH_Q_RANGE		950
+#define CHOGATH_Q_RADIUS	175
+#define CHOGATH_W_RANGE		650
+#define CHOGATH_E_RANGE		500
+#define CHOGATH_R_RANGE		175
+
+#define MALPHITE_Q_RANGE	625
+#define MALPHITE_W_RANGE	290
+#define MALPHITE_E_RANGE	360
+#define MALPHITE_R_RANGE	1000
+#define MALPHITE_R_RADIUS	300
+
+#define ZILEAN_Q_RANGE		900
+#define ZILEAN_Q1_RADIUS	100
+#define ZILEAN_Q2_RADIUS	280
+#define ZILEAN_E_RANGE		650
+#define ZILEAN_R_RANGE		900
+
+#define MASTERYI_Q_RANGE	600
+
+#define ZIGGS_Q1_RANGE		850
+#define ZIGGS_Q2_RANGE		1400
+#define ZIGGS_Q_RADIUS		200
+#define ZIGGS_W_RANGE		1000
+#define ZIGGS_W_RADIUS		325
+#define ZIGGS_W_SPEED		2000
+#define ZIGGS_E_RANGE		900
+#define ZIGGS_E_RADIUS		325
+#define ZIGGS_E_SPEED		2000
+#define ZIGGS_R_RANGE		5000
+#define ZIGGS_R1_RADIUS		275
+#define ZIGGS_R2_RADIUS		550
+#define ZIGGS_R_SPEED		1550
+
+#define AURELION_Q_RANGE	700
+#define AURELION_Q_RADIUS	220
+#define AURELION_Q_SPEED	850
+#define AURELION_W_RANGE	700
+#define AURELION_R_RANGE	1350
+#define AURELION_R_RADIUS	120
+
+#define DIANA_Q_RANGE		900
+#define DIANA_Q_RADIUS		220
+#define DIANA_Q_SPEED		1400
+#define DIANA_W_RANGE		285
+#define DIANA_E_RANGE		400
+#define DIANA_R_RANGE		850
+
+#define ZYRA_Q_RANGE		800
+#define ZYRA_Q_RADIUS		200
+#define ZYRA_W_RANGE		850
+#define ZYRA_E_RANGE		1100
+#define ZYRA_E_SPEED		1200
+#define ZYRA_R_RANGE		700

@@ -1,0 +1,843 @@
+Ryze
+RyzeQ
+RyzeW
+Stun
+Silence
+RyzeE
+ryzerq
+Gragas
+GragasQ
+GragasE
+GragasR
+Ezreal
+EzrealMysticShot
+EzrealEssenceFlux
+EzrealTrueshotBarrage
+Caitlyn
+CaitlynPiltoverPeacemaker
+CaitlynYordleTrap
+caitlynyordletrapinternal
+CaitlynEntrapment
+caitlynyordletrapdebuff
+caitlynheadshot
+CaitlynEntrapmentMissile
+Morgana
+DarkBindingMissile
+TormentedSoil
+Chogath
+Rupture
+FeralScream
+VorpalSpikes
+Feast
+rupturelaunch
+Amumu
+BandageToss
+cursedtouch
+AuraofDespair
+CurseoftheSadMummy
+Disarm
+Graves
+GravesQLineSpell
+GravesSmokeGrenade
+GravesChargeShot
+Aatrox
+AatroxQ
+AatroxE
+AatroxPassiveDeath
+Janna
+HowlingGale
+ReapTheWhirlwind
+JannaQ
+Sejuani
+SejuaniArcticAssault
+SejuaniGlacialPrisonCast
+Ahri
+AhriOrbofDeception
+AhriOrbofReturn
+AhriSeduce
+Taunt
+Kalista
+KalistaMysticShot
+Jinx
+JinxQ
+jinxqicon
+jinxeminesnare
+JinxWMissile
+JinxR
+DrMundo
+BurningAgony
+InfectedCleaverMissile
+Blitzcrank
+RocketGrabMissile
+StaticField
+Brand
+BrandQ
+BrandW
+BrandAblaze
+Braum
+BraumQ
+braumstundebuff
+BraumRWrapper
+Corki
+mbcheck2
+PhosphorusBomb
+MissileBarrageMissile
+MissileBarrageMissile2
+TahmKench
+TahmKenchQ
+Fiora
+FioraW
+JarvanIV
+JarvanIVDragonStrike
+JarvanIVEQ
+JarvanIVDemacianStandard
+Beacon
+JarvanIVStandard
+JarvanIVCataclysm
+jarvanivmartialcadencecheck
+Lux
+LuxLightBinding
+LuxLightStrikeKugel
+LuxMaliceCannonMis
+LuxLightBindingMis
+LuxIlluminatingFraulein
+Nidalee
+NidaleePassiveHunted
+NidaleePassiveHunting
+Takedown
+JavelinToss
+Bushwhack
+Swipe
+Olaf
+OlafAxeThrowCast
+Nautilus
+NautilusAnchorDragMissile
+Nocturne
+NocturneDuskbringer
+MissFortune
+MissFortuneScattershot
+MissFortuneBulletTime
+missfortunebulletsound
+missfortunescattershotslow
+Varus
+VarusQMissilee
+VarusQ
+VarusWDebuff
+VarusE
+VarusR
+Veigar
+VeigarBalefulStrike
+VeigarDarkMatterCastLockout
+VeigarEventHorizon
+veigareventhorizonstun
+Velkoz
+VelkozQ
+VelkozQSplit
+velkozqslow
+VelkozW
+VelkozE
+velkozestun
+VelkozR
+velkozresearchstack
+velkozresearchedstack
+Lucian
+LucianQ
+LucianW
+LucianR
+LucianPassiveBuff
+Draven
+DravenDoubleShot
+DravenRCast
+Ekko
+EkkoQ
+EkkoW
+EkkoR
+Darius
+DariusCleave
+DariusAxeGrabCone
+DariusHemo
+DariusNoxianTacticsONH
+Karma
+KarmaQ
+KarmaQMantra
+KarmaMantra
+Sivir
+SivirQ
+SivirQReturn
+Galio
+GalioResoluteSmite
+GalioRighteousGust
+GalioIdolOfDurand
+Tristana
+TristanaW
+tristanaechargesound
+tristanaecharge
+Garen
+garenpassiveenemytarget
+GarenQ
+GarenE
+Karthus
+KarthusLayWaste
+KarthusDeathDefiedBuff
+KarthusDefile
+Malphite
+MalphiteCleave
+UFSlash
+Nasus
+NasusQ
+NasusE
+Yorick
+YorickSummonDecayed
+LeeSin
+BlindMonkQOne
+BlindMonkQTwo
+BlindMonkWOne
+BlindMonkWTwo
+BlindMonkETwo
+Lulu
+RobotBuddy
+LuluFaerie
+LuluQ
+Yasuo
+YasuoQ
+YasuoQ2
+YasuoQ3
+YasuoQ3W
+YasuoDashWrapper
+Khazix
+KhazixWLong
+KhazixW
+KhazixE
+KhazixELong
+khazixrstealth
+KhazixPDamage
+TwistedFate
+WildCards
+cardmasterslow
+GoldCardLock
+GoldCardPreAttack
+cardmasterstackparticle
+pickacard_tracker
+BlueCardLock
+BlueCardPreAttack
+RedCardLock
+RedCardPreAttack
+PickACard
+Thresh
+ThreshQ
+ThreshQLeap
+ThreshQInternal
+ThreshE
+Soraka
+SorakaQ
+SorakaE
+sorakaesnare
+Ashe
+ashepassiveslow
+Volley
+EnchantedCrystalArrow
+Sona
+sonapassiveattack
+SonaR
+Fizz
+FizzMarinerDoom
+FizzR
+Zed
+ZedQ
+ZedW2
+ZedR2
+zedrdeathmark
+Shadow
+ZedShadow
+Jhin
+JhinW
+JhinE
+JhinR
+jhinpassiveattackbuff
+jhinetrapslow
+jhinrslow
+jhinrsight
+Xerath
+XerathArcanopulseChargeUp
+XerathArcaneBarrage2
+XerathMageSpear
+XerathLocusOfPower2
+Malzahar
+MalzaharQ
+MalzaharR
+Quinn
+quinneroot
+QuinnQ
+Anivia
+chilled
+FlashFrost
+GlacialStorm
+Zyra
+zyrarknockup
+zyraehold
+ZyraQ
+ZyraE
+ZyraR
+Elise
+EliseHumanW
+EliseHumanE
+Evelynn
+EvelynnR
+evelynnrslow
+Diana
+DianaArc
+dianapassivemarker
+dianamoonlight
+Kennen
+KennenShurikenHurlMissile1
+kennenmarkofstorm
+kennendoublestrikelive
+Poppy
+PoppyQSpell
+PoppyR
+Leblanc
+LeblancWReturn
+leblancpminion
+LeblancW
+LeblancPMark
+LeblancE
+leblanceroot
+leblancreroot
+LeblancR
+LeblancRW
+LeblancRE
+LeblancSlide
+LeblancSlideM
+LeblancSoulShackle
+leblancsoulshacklenet
+LeblancSlideReturn
+LeblancSlideReturnM
+LeblancChaosOrbM
+Bard
+BardQ
+BardR
+Zilean
+ZileanQ
+ZileanStunAnim
+ZileanQEnemyBomb
+Lissandra
+LissandraQ
+LissandraE
+Swain
+SwainShadowGrasp
+SwainMetamorphism
+swainqslow
+SwainTorment
+AurelionSol
+AurelionSolQ
+AurelionSolR
+aurelionsolqstun
+aurelionsolqhaste
+aurelionsolwactive
+Twitch
+TwitchVenomCask
+TwitchDeadlyVenom
+TwitchHideInShadows
+Gnar
+GnarQMissile
+GnarBigQMissile
+GnarBigW
+GnarR
+KogMaw
+KogMawQ
+KogMawVoidOozeMissile
+KogMawLivingArtillery
+KogMawIcathianSurprise
+kogmawvoidoozeslow
+kogmawcausticspittlecharged
+kogmawlivingartillerysight
+Singed
+MegaAdhesive
+Cassiopeia
+CassiopeiaQ
+CassiopeiaW
+CassiopeiaR
+CassiopeiaRStun
+cassiopeiaqdebuff
+cassiopeiawpoison
+CassiopeiaWSlow
+Heimerdinger
+HeimerdingerW
+HeimerdingerEUlt
+HeimerdingerE
+Illaoi
+IllaoiQ
+IllaoiE
+illaoiespirit
+IllaoiR
+Leona
+LeonaZenithBlade
+LeonaSolarFlare
+Jayce
+JayceShockBlast
+Kassadin
+ForcePulse
+RiftWalk
+Shen
+ShenE
+Viktor
+ViktorGravitonField
+ViktorDeathRay
+ViktorChaosStorm
+ViktorPowerTransferReturn
+viktoreaug
+viktorqeaug
+viktorweaug
+viktorqweaug
+viktorqweraug
+ViktorChaosStormGuide
+viktorgravitonfieldstun
+viktorgravitonfielddebuffslow
+Gangplank
+GangplankR
+Nami
+NamiQ
+NamiQDebuff
+NamiE
+namieslow
+NamiR
+namirwavestun
+namirwaveslow
+Pantheon
+PantheonE
+PantheonEPassive
+PantheonRJump
+PantheonRFall
+Maokai
+MaokaiTrunkLine
+MaokaiSapling2
+Rengar
+RengarE
+RengarR
+rengarpassivebuff
+RengarQEmp
+RengarWEmp
+RengarEEmp
+globalcamouflage
+RekSai
+RekSaiQBurrowed
+Skarner
+SkarnerFracture
+Taric
+TaricE
+taricestun
+Vi
+ViQ
+Teemo
+TeemoRCast
+TeemoMushroom
+Urgot
+UrgotHeatseekingMissile
+UrgotPlasmaGrenade
+Orianna
+TheDoomBall
+OriannaBall
+orianaghostself
+Rumble
+RumbleGrenade
+RumbleCarpetBombDummy
+Shyvana
+ShyvanaFireball
+ShyvanaFireballDragon2
+ShyvanaTransformLeap
+Sion
+SionQ
+SionE
+SionR
+Syndra
+SyndraQ
+SyndraW
+SyndraE
+syndrawtooltip
+SyndraWCast
+SyndraSphere
+Seed
+Vladimir
+VladimirHemoplague
+VladimirSanguinePool
+vladimirqfrenzy
+VladimirE
+Ziggs
+ZiggsQ
+ZiggsW
+ZiggsE
+ZiggsR
+ZiggsShortFuse
+Zac
+ZacQ
+ZacE
+Annie
+Incinerate
+InfernalGuardian
+pyromania_particle
+infernalguardiantimer
+Mordekaiser
+MordekaiserSyphonOfDestruction
+Talon
+TalonRake
+TalonPassiveStack
+Riven
+RivenIzunaBlade
+RivenFengShuiEngine
+rivenwindslashready
+RivenTriCleave
+rivenpassiveaaboost
+Tryndamere
+TryndamereE
+Taliyah
+TaliyahQ
+TaliyahW
+TaliyahMine
+TestCubeRender10Vision
+Alistar
+Azir
+AzirSoldier
+Jax
+JaxCounterStrike
+JaxEmpowerTwo
+jaxrelentlessassaultas
+Shaco
+Deceive
+Vayne
+VayneSilveredDebuff
+vaynetumblebonus
+Camille
+CamilleQ
+CamilleQ2
+camilleqprimingstart
+camilleqprimingcomplete
+camillewconeslashcharge
+camilleedashtoggle
+Nunu
+AbsoluteZero
+Kindred
+MasterYi
+wujustylevisual
+wujustylesuperchargedvisual
+MonkeyKing
+camprespawncountdownvisible
+camprespawncountdownhidden
+CampRespawn
+Akali
+Kled
+Renekton
+Irelia
+Warwick
+XinZhao
+Rammus
+Cupcake Trap
+Jack In The Box
+Arial
+DRAGON
+BARON
+BLUE
+RED
+%.1f %%
+%s(%.0f)
+%s(%.1f)
+%s_Square.dds
+%s_Square_0.dds
+Armordillo_Square.dds
+Cryophoenix_Square.dds
+Kog'Maw_Square_0.dds
+GreenTerror_Square.dds
+Chronokeeper_Square.dds
+Yeti_Square.dds
+_template_shield.dds
+Item_JungleLichbane_ring.dds
+Steamgolem_Square.dds
+SummonerMana
+SummonerSnow
+SummonerHaste
+SummonerExhaust
+Teleport
+(%.0f)
+%.1f s
+%s : %0.1f s
+%.0f
+Turret_T
+TurretShrine
+Noxious Trap
+JhinTrap
+Summoner_teleport.dds
+Summoner_flash.dds
+SummonerIgnite.dds
+Summoner_heal.dds
+Summoner_smite.dds
+Summoner_boost.dds
+Summoner_Exhaust.dds
+SummonerBarrier.dds
+Summoner_haste.dds
+Summoner_Mark.dds
+SummonerMana.dds
+CircularRangeIndicator_Empty.dds
+verythinring.dds
+rengar_ring.dds
+ward_range_indicator.dds
+CircularRangeIndicator_Dark.dds
+team_ring_red_02.DDS
+team_ring_blue_02.DDS
+color-reddisc.DDS
+color-teleportbeam_reduced.dds
+Jayce_AOE_Yellow.dds
+xx????xx????xx
+d3d9.dll
+Ve thoi gian enemy bien ve
+Ve thoi gian enemy hoi skill
+Ve thoi gian enemy hoi spell
+Ve thoi gian hoi sinh quai rung
+line2
+League of Legends.exe
+SummonerFlash
+BasicAttack
+MeleeBasicAttack
+RangedBasicAttack
+SiegeBasicAttack
+SRUAP_Turret_Order1
+SRUAP_Turret_Order2
+SRUAP_Turret_Order3
+SRUAP_Turret_Order4
+SRUAP_Turret_Chaos1
+SRUAP_Turret_Chaos2
+SRUAP_Turret_Chaos3
+SRUAP_Turret_Chaos4
+recall
+Minion
+MinionMelee
+MinionRanged
+MinionSiege
+Turret
+ - Auto R : On
+ - Auto R : Off
+Dung R Ho Tro Dong Doi : ON
+Dung R Ho Tro Dong Doi : OFF
+R khi dich B bien ve : ON
+R khi dich B bien ve : OFF
+Tu dong dung Q : ON
+Tu dong dung Q : OFF
+Ne Skill : ON
+Ne Skill : OFF
+F6-Ne = Flash : ON
+F6-Ne = Flash : OFF
+F5 BAT ve hinh
+F5 TAT ve hinh
+Di chuyen theo chuot : ON
+Di chuyen theo chuot : OFF
+N : ON
+N : OFF
+Z : ON
+Z : OFF
+Sai ten dang nhap
+Sai mat khau
+Tai khoan cua ban da bi dang nhap o 1 noi khac
+Tai khoan da het han su dung, nap them de tiep tuc su dung
+autolols.com
+autolols01.clemas.vn
+/checklogin.php
+/checkversion.php
+/gettime.php
+username=%s&password=%s&sndisk=%s&os=%s&pcname=%s&pcuser=%s&appversion=%s&sessionid=%s&timeused=%d
+A WinHTTP Example Program/1.0
+POST
+Content-Type: application/x-www-form-urlencoded\r\n
+config\info.dat
+config\AutoLoLs.ini
+User Information
+Username
+Password
+App Information
+Attack Current Selected
+Combo
+Combo Q
+Combo W
+Combo E
+Combo R
+Clear Lane
+ClearLane Q
+ClearLane W
+ClearLane E
+ClearLane R
+Limit Percent Mana to ClearLane
+Harass
+Harass Q
+Harass W
+Harass E
+Harass R
+LastHit
+Limit Percent Mana to Harass
+Move to mouse position
+Evade line
+Evade circle
+Evade dangerous
+Evade by Flash
+Hack Zoom
+Mod Skin
+Play With Bot
+Delay Skill After
+Heal Skill
+Percent HP to Use Heal Skill
+Heal Item
+Percent HP to Use Heal Item
+Ignite
+Cleanse
+Barrier
+Percent HP to Use Barrier
+Smite
+Blade of the Ruined King
+Hextech Items
+Tiamat-Hydra
+Iron Solari
+Percent HP to Use Iron Solari
+Mountain
+Percent HP to Use Mountain
+Zhonya
+Percent HP to Use Zhonya
+Seraph
+Percent HP to Use Seraph
+Quick Silver
+Mikael
+Redemption
+Percent HP to Use Redemption
+Randuin
+Bat/Tat Ve
+Ve Mat Thuong
+Ve Mat Kiem Soat
+Canh Bao Gank
+Doan Huong Dich
+Tam Tru Dich
+Tam Tru Dong Minh
+Tam Danh Thuong Player
+Tam Q Player
+Tam W Player
+Tam E Player
+Tam R Player
+Tam Danh Thuong Enemy
+Tam Q Enemy
+Tam W Enemy
+Tam E Enemy
+Tam R Enemy
+True
+true
+False
+fengyue
+OLLYDBG
+DEROX
+-CiS-
+MTCTOly
+Calc
+Window
+Afx:400000:8:10011:0:a0655
+TForm1
+QWidget
+WinDbgFrameClass
+OllyDbg
+MHS
+Cheat Engine
+TSearch
+ArtMoney Pro
+IDA Pro
+WinDbg
+ntdll.dll
+NtQueryInformationProcess
+NtQuerySystemInformation
+%I64d
+SeDebugPrivilege
+2.28
+League of Legends (TM) Client
+d3dx9_31.dll
+WTSAPI32.dll
+\\\\.\\PhysicalDrive%d
+kernel32
+IsWow64Process
+Win3.1
+Win95
+Win98
+WinMe
+WinNT
+Win2000
+WinXP
+Vista
+Win7
+Win8
+Win8.1
+Win10
+Unknown OS
+__64bit
+__32bit
+kalistaexpungemarker
+Meditate
+AlphaStrike
+zhonyasringshield
+UndyingRage
+Kayle
+JudicatorReckoning
+JudicatorIntervention
+JudicatorRighteousFury
+Katarina
+katarinaqmark
+KatarinaR
+HiddenMinion
+bardrstasis
+SummonerDot
+SummonerHeal
+SummonerBoost
+SummonerSmite
+S5_SummonerSmitePlayerGanker
+S5_SummonerSmiteDuel
+RegenerationPotion
+ItemMiniRegenPotion
+ItemCrystalFlask
+ItemCrystalFlaskJungle
+ItemDarkCrystalFlask
+QuicksilverSash
+ItemMercurial
+ZhonyasHourglass
+ItemSeraphsEmbrace
+HextechGunblade
+BilgewaterCutlass
+ItemSwordOfFeastAndFamine
+ItemTiamatCleave
+ItemTitanicHydraCleave
+RanduinsOmen
+SummonerBarrier
+IronStylus
+HealthBomb
+ItemRedemption
+ItemMorellosBane
+ItemSoFBoltSpellBase
+ItemWillBoltSpellBase
+sheen
+itemfrozenfist
+lichbane
+BlindingDart
+SRU_Gromp
+SRU_Krug
+SRU_Razorbeak
+SRU_Murkwolf
+Sru_Crab
+SRU_Red
+SRU_Blue
+SRU_RiftHerald
+SRU_Baron
+SRU_Dragon
+SRU_
+Sru_
+MiniKrug
+ItemGhostWard
+TrinketTotemLvl1
+VisionWard
+JammerDevice
+YellowTrinket
+SightWard
+slow
+fdC)Y%yum3ww09
+%02x
+RiotWindowClass
+DnsFlushResolverCache
+Demacia
+dnsapi.dll

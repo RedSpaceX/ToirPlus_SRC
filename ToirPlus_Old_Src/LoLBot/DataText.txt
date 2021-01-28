@@ -1,0 +1,87 @@
+Chua nhap ten, neu chua co tai khoan, vui long click Dang Ky
+Chua nhap mat khau, neu chua co tai khoan, vui long click Dang Ky
+Sai ten dang nhap
+Sai mat khau
+Tai khoan cua ban da bi dang nhap o 1 noi khac
+Tai khoan da het han su dung, nap them de tiep tuc su dung
+Khong tim thay cua so game, ban phai chay game truoc da!
+Loi
+Loi dang nhap! ko lay duoc ket qua tra ve tu server
+Loi dang nhap! gio may tinh bi sai, de nghi cap nhat lai gio may tinh
+Auto Lien Minh Huyen Thoai
+League of Legends (TM) Client
+League of Legends.exe
+Test.dll
+VMProtectSDK32.dll
+WINHTTP.dll
+WTSAPI32.dll
+d3dx9_31.dll
+.exe
+Thanh cong!
+OK
+Game chua san sang, hay doi chut!
+Loi kiem tra phien ban! ko lay duoc ket qua tra ve tu server
+404 Not Found
+Kiem tra phien ban! Loi 404 Not Found
+Phien ban ban dang dung da cu, click OK de cap nhat phien ban moi nhat
+https://autolols.com/
+http://autolols.clemas.vn
+https://web.facebook.com/auto.lmht.fanpage
+https://www.facebook.com/auto.lmht.fanpage
+Chuong trinh da duoc chay roi...
+2.28
+fengyue
+OLLYDBG
+DEROX
+-CiS-
+MTCTOly
+Calc
+Window
+Afx:400000:8:10011:0:a0655
+TForm1
+QWidget
+WinDbgFrameClass
+OllyDbg
+MHS
+Cheat Engine
+TSearch
+ArtMoney Pro
+IDA Pro
+WinDbg
+ntdll.dll
+NtQueryInformationProcess
+NtQuerySystemInformation
+config\info.dat
+autolols.com
+autolols01.clemas.vn
+/checklogin.php
+/checkversion.php
+/gettime.php
+appversion=%s
+username=%s&password=%s&sndisk=%s&os=%s&pcname=%s&pcuser=%s&appversion=%s&sessionid=%s&timeused=%d
+A WinHTTP Example Program/1.0
+POST
+Content-Type: application/x-www-form-urlencoded\r\n
+True
+true
+False
+\\\\.\\PhysicalDrive%d
+kernel32
+IsWow64Process
+Win3.1
+Win95
+Win98
+WinMe
+WinNT
+Win2000
+WinXP
+Vista
+Win7
+Win8
+Win8.1
+Win10
+Unknown OS
+__64bit
+__32bit
+fdC)Y%yum3ww09
+%02x

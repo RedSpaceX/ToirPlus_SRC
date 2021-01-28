@@ -1,0 +1,1660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Combo">
+      <UniqueIdentifier>{bfbb8cc7-efb4-4ec1-af6f-5d7e01348bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Draw">
+      <UniqueIdentifier>{5c080c72-8a5a-47e5-91c2-95744429962c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDK">
+      <UniqueIdentifier>{01332504-c32e-440c-a891-abe867d2243d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OrbWalker">
+      <UniqueIdentifier>{90c2713a-5aa1-45c3-af5b-c6eeb2a2b87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUIMenu">
+      <UniqueIdentifier>{fa7067f7-127e-49fa-b6cb-9c7b52d1fbfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDK_C">
+      <UniqueIdentifier>{c0bc7ccf-53d9-4cd3-9897-889a8927c22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Combo">
+      <UniqueIdentifier>{d12e16ff-4623-494a-9acb-ff7429e13d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Draw">
+      <UniqueIdentifier>{9e034ee1-7c73-419c-a763-435792e085af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK">
+      <UniqueIdentifier>{b641e283-7a05-4e7b-a05b-609c3c8c514e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OrbWalker">
+      <UniqueIdentifier>{39de3b89-ed90-4f65-a632-b2794568220d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUIMenu">
+      <UniqueIdentifier>{d8225376-8cfa-417b-a005-1433b7d66870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK_C">
+      <UniqueIdentifier>{2a66e14e-b554-4ef8-8ff1-67986aa0c8ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ezEvade">
+      <UniqueIdentifier>{b0ca6893-9a22-4df4-9910-512c45950342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ezEvade">
+      <UniqueIdentifier>{08c9fa0d-1221-492e-a450-ead569c76b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventGame">
+      <UniqueIdentifier>{0f4bd175-402a-489d-83fc-217f9df99971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventGame">
+      <UniqueIdentifier>{80efbbd2-8e75-41f2-b7c4-93bc5c9c93f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VMTHooking">
+      <UniqueIdentifier>{813b9800-2ec7-47f2-b840-27e44ef923f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VMTHooking">
+      <UniqueIdentifier>{6ac50c88-6d14-47a9-9713-4f0379cb3352}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Activator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiBan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dodge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Farm_Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HotKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IniManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InjectBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LastHitPro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Aatrox.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Ahri.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Akali.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Alistar.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Amumu.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Anivia.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Annie.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Ashe.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\AurelionSol.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Azir.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Blitzcrank.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Brand.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Braum.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Caitlyn.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Camille.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Cassiopeia.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Cho%27Gath.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Combo.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\CommonsFunc.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Corki.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Darius.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Diana.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Draven.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\DrMundo.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Evelynn.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Ezreal.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Fizz.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Galio.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Garen.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Gragas.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Graves.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Illaoi.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Irelia.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Janna.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Jarvan4.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Jax.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Jayce.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Jhin.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Jinx.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Kaisa.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Kalista.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Karma.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Karthus.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Kassadin.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Katarina.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Kayle.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Kennen.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Khazix.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Kindred.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\KogMaw.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Leblanc.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\LeeSin.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Lucian.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Lulu.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Lux.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Malphite.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Malzahar.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\MasterYi.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\MissFortune.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\MonkeyKing.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Morgana.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Nami.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Nasus.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Nidalee.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Nocturne.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Nunu.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Olaf.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Orianna.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Pantheon.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Poppy.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Pyke.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Quinn.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Rakan.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Renekton.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Rengar.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Riven.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Ryze.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Shaco.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Singed.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Sivir.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Sona.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Soraka.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Swain.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Syndra.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Taliyah.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Talon.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Teemo.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Thresh.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Tristana.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Trundle.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Tryndamere.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\TuDongKetLieu.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\TwistedFate.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Twitch.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Varus.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Vayne.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Veigar.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Velkoz.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Viktor.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Vladimir.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Xayah.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Xerath.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\XinZhao.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Yasuo.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Zed.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Ziggs.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Zilean.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Zoe.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Zyra.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw\Draw2D.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw\DrawCommon.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw\DrawEnemy.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw\Drawing.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw\DrawPlayer.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw\GuiMenu.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw\Lang.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw\Menu.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CommonFunc.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CORE_API.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\L_Buff_Item.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\L_Hero.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\L_Spells.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\L_Unit.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\LDrawMenuTest.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\LDrawObh.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\lua_script.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\LuaBuffs.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\LuaCasting.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\LuaDraw.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\LuaItems.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\LuaMoving.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\LuaNpcAttribute.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\LuaOrb.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\LuaSpell.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\LuaUtils.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\OnEvent.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SearchObject.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\TestMain.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbWalker\AoePred.cpp">
+      <Filter>Source Files\OrbWalker</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbWalker\Dash.cpp">
+      <Filter>Source Files\OrbWalker</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbWalker\Geometry.cpp">
+      <Filter>Source Files\OrbWalker</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbWalker\HealthPred.cpp">
+      <Filter>Source Files\OrbWalker</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbWalker\MEC.cpp">
+      <Filter>Source Files\OrbWalker</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbWalker\OrbSafe.cpp">
+      <Filter>Source Files\OrbWalker</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbWalker\OrbT_LHit.cpp">
+      <Filter>Source Files\OrbWalker</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbWalker\OrbWalker.cpp">
+      <Filter>Source Files\OrbWalker</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbWalker\Prediction.cpp">
+      <Filter>Source Files\OrbWalker</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbWalker\TargetSelector.cpp">
+      <Filter>Source Files\OrbWalker</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbWalker\WayPointAnalysis.cpp">
+      <Filter>Source Files\OrbWalker</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIMenu\imgui.cpp">
+      <Filter>Source Files\GUIMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIMenu\imgui_demo.cpp">
+      <Filter>Source Files\GUIMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIMenu\imgui_draw.cpp">
+      <Filter>Source Files\GUIMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIMenu\imgui_impl_dx9.cpp">
+      <Filter>Source Files\GUIMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK_C\attb.cpp">
+      <Filter>Source Files\SDK_C</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayAction.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="Evade.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="EvadeCommand.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="EvadeHelper.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="EvadeUtils.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="ezMenu.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="fucker.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="InitClassEvade.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtils.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtilsCPA.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionInfo.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="Situation.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellDetector.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellDrawer.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Lissandra.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="EvadeSpells.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialEvadeSpell.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Neeko.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellSpecial.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeAatroxS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeFioraS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeIreliaS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeLuxS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeMalphiteS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeMalzaharS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeOriannaS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeSyndraS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeTFS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeXerathS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Hecarim.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgePykeS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeViktorS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeSorakaS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeXinZhaoS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeZacS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeZedS.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Mordekaiser.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Sylas.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Sion.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Ekko.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Fiora.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Urgot.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Nautilus.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Leona.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Fiddlesticks.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Bard.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Ornn.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Shen.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Maokai.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Gangplank.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Kayn.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Vi.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Yorick.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Gnar.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Volibear.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Warwick.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\RekSai.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Zac.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Rammus.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Taric.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Shyvana.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Elise.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Skarner.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\TahmKench.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Udyr.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Sejuani.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Heimerdinger.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Rumble.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Ivern.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Kled.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Yuumi.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="EventFake.cpp">
+      <Filter>Source Files\EventGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Qiyana.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="VMT_OnSendRecvPacket.cpp">
+      <Filter>Source Files\VMTHooking</Filter>
+    </ClCompile>
+    <ClCompile Include="VMTHooked.cpp">
+      <Filter>Source Files\VMTHooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Senna.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="VMT_OnCreateObject.cpp">
+      <Filter>Source Files\VMTHooking</Filter>
+    </ClCompile>
+    <ClCompile Include="VMT_OnProcessSpell.cpp">
+      <Filter>Source Files\VMTHooking</Filter>
+    </ClCompile>
+    <ClCompile Include="DodSpecial_1.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodSpecial_2.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodSpecial_3.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="DodSpecial_4.cpp">
+      <Filter>Source Files\ezEvade</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo\Aphelios.cpp">
+      <Filter>Source Files\Combo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Activator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Address_Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiBan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicAttack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseDodge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Farm_Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FILE_TAM_THOI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HotKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IniManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InjectBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LastHitPro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Aatrox.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Ahri.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Akali.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Alistar.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Amumu.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Anivia.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Annie.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Ashe.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\AurelionSol.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Azir.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Blitzcrank.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Brand.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Braum.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Caitlyn.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Camille.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Cassiopeia.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Cho%27Gath.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Combo.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\CommonsFunc.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Corki.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Darius.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Diana.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Draven.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\DrMundo.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Evelynn.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Ezreal.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Fizz.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Galio.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Garen.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Gragas.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Graves.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Illaoi.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Irelia.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Janna.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Jarvan4.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Jax.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Jayce.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Jhin.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Jinx.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Kaisa.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Kalista.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Karma.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Karthus.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Kassadin.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Katarina.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Kayle.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Kennen.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Khazix.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Kindred.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\KogMaw.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Leblanc.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\LeeSin.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Lucian.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Lulu.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Lux.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Malphite.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Malzahar.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\MasterYi.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\MissFortune.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\MonkeyKing.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Morgana.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Nami.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Nasus.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Nidalee.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Nocturne.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Nunu.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Olaf.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Orianna.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Pantheon.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Poppy.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Pyke.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Quinn.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Rakan.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Renekton.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Rengar.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Riven.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Ryze.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Shaco.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Singed.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Sivir.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\SkillData.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Sona.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Soraka.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Swain.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Syndra.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Taliyah.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Talon.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Teemo.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Thresh.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Tristana.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Trundle.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Tryndamere.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\TuDongKetLieu.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\TwistedFate.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Twitch.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Varus.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Vayne.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Veigar.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Velkoz.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Viktor.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Vladimir.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Xayah.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Xerath.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\XinZhao.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Yasuo.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Zed.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Ziggs.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Zilean.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Zoe.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Zyra.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw\Draw2D.h">
+      <Filter>Header Files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw\Draw_SpellData.h">
+      <Filter>Header Files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw\DrawCommon.h">
+      <Filter>Header Files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw\DrawEnemy.h">
+      <Filter>Header Files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw\Drawing.h">
+      <Filter>Header Files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw\DrawPlayer.h">
+      <Filter>Header Files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw\GuiMenu.h">
+      <Filter>Header Files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw\Lang.h">
+      <Filter>Header Files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw\Menu.h">
+      <Filter>Header Files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CommonFunc.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CORE_API.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\L_Buff_Item.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\L_Hero.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\L_Spells.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\L_Unit.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\LDrawMenuTest.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\LDrawObh.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\lua_script.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\LuaBuffs.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\LuaCasting.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\LuaDraw.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\LuaItems.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\LuaMoving.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\LuaNpcAttribute.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\LuaOrb.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\LuaSpell.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\LuaUtils.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\OnEvent.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SearchObject.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\TestMain.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbWalker\AoePred.h">
+      <Filter>Header Files\OrbWalker</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbWalker\Dash.h">
+      <Filter>Header Files\OrbWalker</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbWalker\Geometry.h">
+      <Filter>Header Files\OrbWalker</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbWalker\HealthPred.h">
+      <Filter>Header Files\OrbWalker</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbWalker\MEC.h">
+      <Filter>Header Files\OrbWalker</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbWalker\OrbSafe.h">
+      <Filter>Header Files\OrbWalker</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbWalker\OrbT_LHit.h">
+      <Filter>Header Files\OrbWalker</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbWalker\OrbWalker.h">
+      <Filter>Header Files\OrbWalker</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbWalker\Prediction.h">
+      <Filter>Header Files\OrbWalker</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbWalker\TargetSelector.h">
+      <Filter>Header Files\OrbWalker</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbWalker\WayPointAnalysis.h">
+      <Filter>Header Files\OrbWalker</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIMenu\imconfig.h">
+      <Filter>Header Files\GUIMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIMenu\imgui.h">
+      <Filter>Header Files\GUIMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIMenu\imgui_impl_dx9.h">
+      <Filter>Header Files\GUIMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIMenu\imgui_internal.h">
+      <Filter>Header Files\GUIMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIMenu\stb_rect_pack.h">
+      <Filter>Header Files\GUIMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIMenu\stb_textedit.h">
+      <Filter>Header Files\GUIMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIMenu\stb_truetype.h">
+      <Filter>Header Files\GUIMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK_C\attb.h">
+      <Filter>Header Files\SDK_C</Filter>
+    </ClInclude>
+    <ClInclude Include="Evade.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="EvadeCommand.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="EvadeHelper.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="EvadeUtils.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="ezMenu.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="fucker.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="InitClassEvade.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtilsCPA.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionInfo.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="Situation.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellData_ez.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellDatabase.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellDetector.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellDrawer.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayAction.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DIFF_OLD_NEW.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Lissandra.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="EvadeSpells.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialEvadeSpell.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Neeko.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellSpecial.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeAatroxS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeFioraS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeIreliaS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeLuxS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeMalphiteS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeMalzaharS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeOriannaS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeSyndraS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeTFS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeXerathS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Hecarim.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgePykeS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeViktorS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeSorakaS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeXinZhaoS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeZacS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeZedS.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Mordekaiser.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Sion.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Sylas.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Ekko.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Fiora.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Urgot.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Nautilus.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Leona.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Fiddlesticks.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Bard.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Ornn.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Shen.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Maokai.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Gangplank.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Kayn.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Vi.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Yorick.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Gnar.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Warwick.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\RekSai.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Volibear.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Zac.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Rammus.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Taric.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Shyvana.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Elise.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Skarner.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\TahmKench.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Udyr.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Sejuani.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Rumble.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Ivern.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Kled.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Yuumi.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="EventFake.h">
+      <Filter>Header Files\EventGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Qiyana.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="VMT_OnSendRecvPacket.h">
+      <Filter>Header Files\VMTHooking</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHooked.h">
+      <Filter>Header Files\VMTHooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Senna.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="VMT_OnCreateObject.h">
+      <Filter>Header Files\VMTHooking</Filter>
+    </ClInclude>
+    <ClInclude Include="VMT_OnProcessSpell.h">
+      <Filter>Header Files\VMTHooking</Filter>
+    </ClInclude>
+    <ClInclude Include="DodSpecial_1.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodSpecial_2.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodSpecial_3.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="DodSpecial_4.h">
+      <Filter>Header Files\ezEvade</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo\Aphelios.h">
+      <Filter>Header Files\Combo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataString.txt" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

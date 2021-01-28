@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F50201A1-3370-4891-94FA-4A61A9AD2E06}</ProjectGuid>
+    <RootNamespace>InjectBot</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;INJECTBOT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)CommonLib.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\CryptoPP;$(SolutionDir)\Lib\Lua;$(SolutionDir)\Lib;$(SolutionDir)\InjectBot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;INJECTBOT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)riot.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)\CryptoPP;$(SolutionDir)\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <NoEntryPoint>true</NoEntryPoint>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Activator.cpp" />
+    <ClCompile Include="AntiBan.cpp" />
+    <ClCompile Include="AntiDebugger.cpp" />
+    <ClCompile Include="Combo\Aphelios.cpp" />
+    <ClCompile Include="Combo\Bard.cpp" />
+    <ClCompile Include="Combo\Ekko.cpp" />
+    <ClCompile Include="Combo\Elise.cpp" />
+    <ClCompile Include="Combo\Fiddlesticks.cpp" />
+    <ClCompile Include="Combo\Fiora.cpp" />
+    <ClCompile Include="Combo\Gangplank.cpp" />
+    <ClCompile Include="Combo\Gnar.cpp" />
+    <ClCompile Include="Combo\Hecarim.cpp" />
+    <ClCompile Include="Combo\Heimerdinger.cpp" />
+    <ClCompile Include="Combo\Ivern.cpp" />
+    <ClCompile Include="Combo\Kayn.cpp" />
+    <ClCompile Include="Combo\Kled.cpp" />
+    <ClCompile Include="Combo\Leona.cpp" />
+    <ClCompile Include="Combo\Lissandra.cpp" />
+    <ClCompile Include="Combo\Maokai.cpp" />
+    <ClCompile Include="Combo\Mordekaiser.cpp" />
+    <ClCompile Include="Combo\Nautilus.cpp" />
+    <ClCompile Include="Combo\Neeko.cpp" />
+    <ClCompile Include="Combo\Ornn.cpp" />
+    <ClCompile Include="Combo\Qiyana.cpp" />
+    <ClCompile Include="Combo\Rammus.cpp" />
+    <ClCompile Include="Combo\RekSai.cpp" />
+    <ClCompile Include="Combo\Rumble.cpp" />
+    <ClCompile Include="Combo\Sejuani.cpp" />
+    <ClCompile Include="Combo\Senna.cpp" />
+    <ClCompile Include="Combo\Shen.cpp" />
+    <ClCompile Include="Combo\Shyvana.cpp" />
+    <ClCompile Include="Combo\Sion.cpp" />
+    <ClCompile Include="Combo\Skarner.cpp" />
+    <ClCompile Include="Combo\Sylas.cpp" />
+    <ClCompile Include="Combo\TahmKench.cpp" />
+    <ClCompile Include="Combo\Taric.cpp" />
+    <ClCompile Include="Combo\Udyr.cpp" />
+    <ClCompile Include="Combo\Urgot.cpp" />
+    <ClCompile Include="Combo\Vi.cpp" />
+    <ClCompile Include="Combo\Volibear.cpp" />
+    <ClCompile Include="Combo\Warwick.cpp" />
+    <ClCompile Include="Combo\Yorick.cpp" />
+    <ClCompile Include="Combo\Yuumi.cpp" />
+    <ClCompile Include="Combo\Zac.cpp" />
+    <ClCompile Include="DataString.cpp" />
+    <ClCompile Include="DelayAction.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="Dodge.cpp" />
+    <ClCompile Include="DodgeAatroxS.cpp" />
+    <ClCompile Include="DodgeFioraS.cpp" />
+    <ClCompile Include="DodgeIreliaS.cpp" />
+    <ClCompile Include="DodgeLuxS.cpp" />
+    <ClCompile Include="DodgeMalphiteS.cpp" />
+    <ClCompile Include="DodgeMalzaharS.cpp" />
+    <ClCompile Include="DodgeOriannaS.cpp" />
+    <ClCompile Include="DodgePykeS.cpp" />
+    <ClCompile Include="DodgeSorakaS.cpp" />
+    <ClCompile Include="DodgeSyndraS.cpp" />
+    <ClCompile Include="DodgeTFS.cpp" />
+    <ClCompile Include="DodgeViktorS.cpp" />
+    <ClCompile Include="DodgeXerathS.cpp" />
+    <ClCompile Include="DodgeXinZhaoS.cpp" />
+    <ClCompile Include="DodgeZacS.cpp" />
+    <ClCompile Include="DodgeZedS.cpp" />
+    <ClCompile Include="DodSpecial_1.cpp" />
+    <ClCompile Include="DodSpecial_2.cpp" />
+    <ClCompile Include="DodSpecial_3.cpp" />
+    <ClCompile Include="DodSpecial_4.cpp" />
+    <ClCompile Include="Evade.cpp" />
+    <ClCompile Include="EvadeCommand.cpp" />
+    <ClCompile Include="EvadeHelper.cpp" />
+    <ClCompile Include="EvadeSpells.cpp" />
+    <ClCompile Include="EvadeUtils.cpp" />
+    <ClCompile Include="EventFake.cpp" />
+    <ClCompile Include="ezMenu.cpp" />
+    <ClCompile Include="Farm_Level.cpp" />
+    <ClCompile Include="fucker.cpp" />
+    <ClCompile Include="GameData.cpp" />
+    <ClCompile Include="HotKey.cpp" />
+    <ClCompile Include="IniFile.cpp" />
+    <ClCompile Include="IniManager.cpp" />
+    <ClCompile Include="InitClassEvade.cpp" />
+    <ClCompile Include="InjectBot.cpp" />
+    <ClCompile Include="LastHitPro.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="MathUtils.cpp" />
+    <ClCompile Include="MathUtilsCPA.cpp" />
+    <ClCompile Include="Position.cpp" />
+    <ClCompile Include="PositionInfo.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Situation.cpp" />
+    <ClCompile Include="SpecialEvadeSpell.cpp" />
+    <ClCompile Include="Spell.cpp" />
+    <ClCompile Include="SpellData.cpp" />
+    <ClCompile Include="SpellDetector.cpp" />
+    <ClCompile Include="SpellDrawer.cpp" />
+    <ClCompile Include="SpellSpecial.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Combo\Aatrox.cpp" />
+    <ClCompile Include="Combo\Ahri.cpp" />
+    <ClCompile Include="Combo\Akali.cpp" />
+    <ClCompile Include="Combo\Alistar.cpp" />
+    <ClCompile Include="Combo\Amumu.cpp" />
+    <ClCompile Include="Combo\Anivia.cpp" />
+    <ClCompile Include="Combo\Annie.cpp" />
+    <ClCompile Include="Combo\Ashe.cpp" />
+    <ClCompile Include="Combo\AurelionSol.cpp" />
+    <ClCompile Include="Combo\Azir.cpp" />
+    <ClCompile Include="Combo\Blitzcrank.cpp" />
+    <ClCompile Include="Combo\Brand.cpp" />
+    <ClCompile Include="Combo\Braum.cpp" />
+    <ClCompile Include="Combo\Caitlyn.cpp" />
+    <ClCompile Include="Combo\Camille.cpp" />
+    <ClCompile Include="Combo\Cassiopeia.cpp" />
+    <ClCompile Include="Combo\Cho%27Gath.cpp" />
+    <ClCompile Include="Combo\Combo.cpp" />
+    <ClCompile Include="Combo\CommonsFunc.cpp" />
+    <ClCompile Include="Combo\Corki.cpp" />
+    <ClCompile Include="Combo\Darius.cpp" />
+    <ClCompile Include="Combo\Diana.cpp" />
+    <ClCompile Include="Combo\Draven.cpp" />
+    <ClCompile Include="Combo\DrMundo.cpp" />
+    <ClCompile Include="Combo\Evelynn.cpp" />
+    <ClCompile Include="Combo\Ezreal.cpp" />
+    <ClCompile Include="Combo\Fizz.cpp" />
+    <ClCompile Include="Combo\Galio.cpp" />
+    <ClCompile Include="Combo\Garen.cpp" />
+    <ClCompile Include="Combo\Gragas.cpp" />
+    <ClCompile Include="Combo\Graves.cpp" />
+    <ClCompile Include="Combo\Illaoi.cpp" />
+    <ClCompile Include="Combo\Irelia.cpp" />
+    <ClCompile Include="Combo\Janna.cpp" />
+    <ClCompile Include="Combo\Jarvan4.cpp" />
+    <ClCompile Include="Combo\Jax.cpp" />
+    <ClCompile Include="Combo\Jayce.cpp" />
+    <ClCompile Include="Combo\Jhin.cpp" />
+    <ClCompile Include="Combo\Jinx.cpp" />
+    <ClCompile Include="Combo\Kaisa.cpp" />
+    <ClCompile Include="Combo\Kalista.cpp" />
+    <ClCompile Include="Combo\Karma.cpp" />
+    <ClCompile Include="Combo\Karthus.cpp" />
+    <ClCompile Include="Combo\Kassadin.cpp" />
+    <ClCompile Include="Combo\Katarina.cpp" />
+    <ClCompile Include="Combo\Kayle.cpp" />
+    <ClCompile Include="Combo\Kennen.cpp" />
+    <ClCompile Include="Combo\Khazix.cpp" />
+    <ClCompile Include="Combo\Kindred.cpp" />
+    <ClCompile Include="Combo\KogMaw.cpp" />
+    <ClCompile Include="Combo\Leblanc.cpp" />
+    <ClCompile Include="Combo\LeeSin.cpp" />
+    <ClCompile Include="Combo\Lucian.cpp" />
+    <ClCompile Include="Combo\Lulu.cpp" />
+    <ClCompile Include="Combo\Lux.cpp" />
+    <ClCompile Include="Combo\Malphite.cpp" />
+    <ClCompile Include="Combo\Malzahar.cpp" />
+    <ClCompile Include="Combo\MasterYi.cpp" />
+    <ClCompile Include="Combo\MissFortune.cpp" />
+    <ClCompile Include="Combo\MonkeyKing.cpp" />
+    <ClCompile Include="Combo\Morgana.cpp" />
+    <ClCompile Include="Combo\Nami.cpp" />
+    <ClCompile Include="Combo\Nasus.cpp" />
+    <ClCompile Include="Combo\Nidalee.cpp" />
+    <ClCompile Include="Combo\Nocturne.cpp" />
+    <ClCompile Include="Combo\Nunu.cpp" />
+    <ClCompile Include="Combo\Olaf.cpp" />
+    <ClCompile Include="Combo\Orianna.cpp" />
+    <ClCompile Include="Combo\Pantheon.cpp" />
+    <ClCompile Include="Combo\Poppy.cpp" />
+    <ClCompile Include="Combo\Pyke.cpp" />
+    <ClCompile Include="Combo\Quinn.cpp" />
+    <ClCompile Include="Combo\Rakan.cpp" />
+    <ClCompile Include="Combo\Renekton.cpp" />
+    <ClCompile Include="Combo\Rengar.cpp" />
+    <ClCompile Include="Combo\Riven.cpp" />
+    <ClCompile Include="Combo\Ryze.cpp" />
+    <ClCompile Include="Combo\Shaco.cpp" />
+    <ClCompile Include="Combo\Singed.cpp" />
+    <ClCompile Include="Combo\Sivir.cpp" />
+    <ClCompile Include="Combo\Sona.cpp" />
+    <ClCompile Include="Combo\Soraka.cpp" />
+    <ClCompile Include="Combo\Swain.cpp" />
+    <ClCompile Include="Combo\Syndra.cpp" />
+    <ClCompile Include="Combo\Taliyah.cpp" />
+    <ClCompile Include="Combo\Talon.cpp" />
+    <ClCompile Include="Combo\Teemo.cpp" />
+    <ClCompile Include="Combo\Thresh.cpp" />
+    <ClCompile Include="Combo\Tristana.cpp" />
+    <ClCompile Include="Combo\Trundle.cpp" />
+    <ClCompile Include="Combo\Tryndamere.cpp" />
+    <ClCompile Include="Combo\TuDongKetLieu.cpp" />
+    <ClCompile Include="Combo\TwistedFate.cpp" />
+    <ClCompile Include="Combo\Twitch.cpp" />
+    <ClCompile Include="Combo\Varus.cpp" />
+    <ClCompile Include="Combo\Vayne.cpp" />
+    <ClCompile Include="Combo\Veigar.cpp" />
+    <ClCompile Include="Combo\Velkoz.cpp" />
+    <ClCompile Include="Combo\Viktor.cpp" />
+    <ClCompile Include="Combo\Vladimir.cpp" />
+    <ClCompile Include="Combo\Xayah.cpp" />
+    <ClCompile Include="Combo\Xerath.cpp" />
+    <ClCompile Include="Combo\XinZhao.cpp" />
+    <ClCompile Include="Combo\Yasuo.cpp" />
+    <ClCompile Include="Combo\Zed.cpp" />
+    <ClCompile Include="Combo\Ziggs.cpp" />
+    <ClCompile Include="Combo\Zilean.cpp" />
+    <ClCompile Include="Combo\Zoe.cpp" />
+    <ClCompile Include="Combo\Zyra.cpp" />
+    <ClCompile Include="Draw\Draw2D.cpp" />
+    <ClCompile Include="Draw\DrawCommon.cpp" />
+    <ClCompile Include="Draw\DrawEnemy.cpp" />
+    <ClCompile Include="Draw\Drawing.cpp" />
+    <ClCompile Include="Draw\DrawPlayer.cpp" />
+    <ClCompile Include="Draw\GuiMenu.cpp" />
+    <ClCompile Include="Draw\Lang.cpp" />
+    <ClCompile Include="Draw\Menu.cpp" />
+    <ClCompile Include="SDK\CommonFunc.cpp" />
+    <ClCompile Include="SDK\CORE_API.cpp" />
+    <ClCompile Include="SDK\L_Buff_Item.cpp" />
+    <ClCompile Include="SDK\L_Hero.cpp" />
+    <ClCompile Include="SDK\L_Spells.cpp" />
+    <ClCompile Include="SDK\L_Unit.cpp" />
+    <ClCompile Include="SDK\LDrawMenuTest.cpp" />
+    <ClCompile Include="SDK\LDrawObh.cpp" />
+    <ClCompile Include="SDK\lua_script.cpp" />
+    <ClCompile Include="SDK\LuaBuffs.cpp" />
+    <ClCompile Include="SDK\LuaCasting.cpp" />
+    <ClCompile Include="SDK\LuaDraw.cpp" />
+    <ClCompile Include="SDK\LuaItems.cpp" />
+    <ClCompile Include="SDK\LuaMoving.cpp" />
+    <ClCompile Include="SDK\LuaNpcAttribute.cpp" />
+    <ClCompile Include="SDK\LuaOrb.cpp" />
+    <ClCompile Include="SDK\LuaSpell.cpp" />
+    <ClCompile Include="SDK\LuaUtils.cpp" />
+    <ClCompile Include="SDK\OnEvent.cpp" />
+    <ClCompile Include="SDK\SearchObject.cpp" />
+    <ClCompile Include="SDK\TestMain.cpp" />
+    <ClCompile Include="OrbWalker\AoePred.cpp" />
+    <ClCompile Include="OrbWalker\Dash.cpp" />
+    <ClCompile Include="OrbWalker\Geometry.cpp" />
+    <ClCompile Include="OrbWalker\HealthPred.cpp" />
+    <ClCompile Include="OrbWalker\MEC.cpp" />
+    <ClCompile Include="OrbWalker\OrbSafe.cpp" />
+    <ClCompile Include="OrbWalker\OrbT_LHit.cpp" />
+    <ClCompile Include="OrbWalker\OrbWalker.cpp" />
+    <ClCompile Include="OrbWalker\Prediction.cpp" />
+    <ClCompile Include="OrbWalker\TargetSelector.cpp" />
+    <ClCompile Include="OrbWalker\WayPointAnalysis.cpp" />
+    <ClCompile Include="GUIMenu\imgui.cpp" />
+    <ClCompile Include="GUIMenu\imgui_demo.cpp" />
+    <ClCompile Include="GUIMenu\imgui_draw.cpp" />
+    <ClCompile Include="GUIMenu\imgui_impl_dx9.cpp" />
+    <ClCompile Include="SDK_C\attb.cpp" />
+    <ClCompile Include="VMTHooked.cpp" />
+    <ClCompile Include="VMT_OnCreateObject.cpp" />
+    <ClCompile Include="VMT_OnProcessSpell.cpp" />
+    <ClCompile Include="VMT_OnSendRecvPacket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Combo\Aphelios.h" />
+    <ClInclude Include="Combo\Bard.h" />
+    <ClInclude Include="Combo\Ekko.h" />
+    <ClInclude Include="Combo\Elise.h" />
+    <ClInclude Include="Combo\Fiddlesticks.h" />
+    <ClInclude Include="Combo\Fiora.h" />
+    <ClInclude Include="Combo\Gangplank.h" />
+    <ClInclude Include="Combo\Gnar.h" />
+    <ClInclude Include="Combo\Hecarim.h" />
+    <ClInclude Include="Combo\Ivern.h" />
+    <ClInclude Include="Combo\Kayn.h" />
+    <ClInclude Include="Combo\Kled.h" />
+    <ClInclude Include="Combo\Leona.h" />
+    <ClInclude Include="Combo\Lissandra.h" />
+    <ClInclude Include="Combo\Maokai.h" />
+    <ClInclude Include="Combo\Mordekaiser.h" />
+    <ClInclude Include="Combo\Nautilus.h" />
+    <ClInclude Include="Combo\Neeko.h" />
+    <ClInclude Include="Combo\Ornn.h" />
+    <ClInclude Include="Combo\Qiyana.h" />
+    <ClInclude Include="Combo\Rammus.h" />
+    <ClInclude Include="Combo\RekSai.h" />
+    <ClInclude Include="Combo\Rumble.h" />
+    <ClInclude Include="Combo\Sejuani.h" />
+    <ClInclude Include="Combo\Senna.h" />
+    <ClInclude Include="Combo\Shen.h" />
+    <ClInclude Include="Combo\Shyvana.h" />
+    <ClInclude Include="Combo\Sion.h" />
+    <ClInclude Include="Combo\Skarner.h" />
+    <ClInclude Include="Combo\Sylas.h" />
+    <ClInclude Include="Combo\TahmKench.h" />
+    <ClInclude Include="Combo\Taric.h" />
+    <ClInclude Include="Combo\Udyr.h" />
+    <ClInclude Include="Combo\Urgot.h" />
+    <ClInclude Include="Combo\Vi.h" />
+    <ClInclude Include="Combo\Volibear.h" />
+    <ClInclude Include="Combo\Warwick.h" />
+    <ClInclude Include="Combo\Yorick.h" />
+    <ClInclude Include="Combo\Yuumi.h" />
+    <ClInclude Include="Combo\Zac.h" />
+    <ClInclude Include="DelayAction.h" />
+    <ClInclude Include="DIFF_OLD_NEW.h" />
+    <ClInclude Include="DodgeAatroxS.h" />
+    <ClInclude Include="DodgeFioraS.h" />
+    <ClInclude Include="DodgeIreliaS.h" />
+    <ClInclude Include="DodgeLuxS.h" />
+    <ClInclude Include="DodgeMalphiteS.h" />
+    <ClInclude Include="DodgeMalzaharS.h" />
+    <ClInclude Include="DodgeOriannaS.h" />
+    <ClInclude Include="DodgePykeS.h" />
+    <ClInclude Include="DodgeSorakaS.h" />
+    <ClInclude Include="DodgeSyndraS.h" />
+    <ClInclude Include="DodgeTFS.h" />
+    <ClInclude Include="DodgeViktorS.h" />
+    <ClInclude Include="DodgeXerathS.h" />
+    <ClInclude Include="DodgeXinZhaoS.h" />
+    <ClInclude Include="DodgeZacS.h" />
+    <ClInclude Include="DodgeZedS.h" />
+    <ClInclude Include="DodSpecial_1.h" />
+    <ClInclude Include="DodSpecial_2.h" />
+    <ClInclude Include="DodSpecial_3.h" />
+    <ClInclude Include="DodSpecial_4.h" />
+    <ClInclude Include="Evade.h" />
+    <ClInclude Include="EvadeCommand.h" />
+    <ClInclude Include="EvadeHelper.h" />
+    <ClInclude Include="EvadeSpells.h" />
+    <ClInclude Include="EvadeUtils.h" />
+    <ClInclude Include="EventFake.h" />
+    <ClInclude Include="ezMenu.h" />
+    <ClInclude Include="fucker.h" />
+    <ClInclude Include="InitClassEvade.h" />
+    <ClInclude Include="MathUtils.h" />
+    <ClInclude Include="MathUtilsCPA.h" />
+    <ClInclude Include="Position.h" />
+    <ClInclude Include="PositionInfo.h" />
+    <ClInclude Include="Situation.h" />
+    <ClInclude Include="SpecialEvadeSpell.h" />
+    <ClInclude Include="Spell.h" />
+    <ClInclude Include="SpellDatabase.h" />
+    <ClInclude Include="SpellData_ez.h" />
+    <ClInclude Include="SpellDetector.h" />
+    <ClInclude Include="SpellDrawer.h" />
+    <ClInclude Include="SpellSpecial.h" />
+    <ClInclude Include="VMTHooked.h" />
+    <ClInclude Include="VMT_OnCreateObject.h" />
+    <ClInclude Include="VMT_OnProcessSpell.h" />
+    <ClInclude Include="VMT_OnSendRecvPacket.h" />
+    <ClInclude Include="_md5.h" />
+    <ClInclude Include="Activator.h" />
+    <ClInclude Include="Address_Game.h" />
+    <ClInclude Include="AntiBan.h" />
+    <ClInclude Include="AntiDebugger.h" />
+    <ClInclude Include="BasicAttack.h" />
+    <ClInclude Include="CBaseDodge.h" />
+    <ClInclude Include="DataString.h" />
+    <ClInclude Include="Dodge.h" />
+    <ClInclude Include="Farm_Level.h" />
+    <ClInclude Include="FILE_TAM_THOI.h" />
+    <ClInclude Include="GameData.h" />
+    <ClInclude Include="GameDefine.h" />
+    <ClInclude Include="HotKey.h" />
+    <ClInclude Include="IniFile.h" />
+    <ClInclude Include="IniManager.h" />
+    <ClInclude Include="InjectBot.h" />
+    <ClInclude Include="LastHitPro.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="SpellData.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Combo\Aatrox.h" />
+    <ClInclude Include="Combo\Ahri.h" />
+    <ClInclude Include="Combo\Akali.h" />
+    <ClInclude Include="Combo\Alistar.h" />
+    <ClInclude Include="Combo\Amumu.h" />
+    <ClInclude Include="Combo\Anivia.h" />
+    <ClInclude Include="Combo\Annie.h" />
+    <ClInclude Include="Combo\Ashe.h" />
+    <ClInclude Include="Combo\AurelionSol.h" />
+    <ClInclude Include="Combo\Azir.h" />
+    <ClInclude Include="Combo\Blitzcrank.h" />
+    <ClInclude Include="Combo\Brand.h" />
+    <ClInclude Include="Combo\Braum.h" />
+    <ClInclude Include="Combo\Caitlyn.h" />
+    <ClInclude Include="Combo\Camille.h" />
+    <ClInclude Include="Combo\Cassiopeia.h" />
+    <ClInclude Include="Combo\Cho%27Gath.h" />
+    <ClInclude Include="Combo\Combo.h" />
+    <ClInclude Include="Combo\CommonsFunc.h" />
+    <ClInclude Include="Combo\Corki.h" />
+    <ClInclude Include="Combo\Darius.h" />
+    <ClInclude Include="Combo\Diana.h" />
+    <ClInclude Include="Combo\Draven.h" />
+    <ClInclude Include="Combo\DrMundo.h" />
+    <ClInclude Include="Combo\Evelynn.h" />
+    <ClInclude Include="Combo\Ezreal.h" />
+    <ClInclude Include="Combo\Fizz.h" />
+    <ClInclude Include="Combo\Galio.h" />
+    <ClInclude Include="Combo\Garen.h" />
+    <ClInclude Include="Combo\Gragas.h" />
+    <ClInclude Include="Combo\Graves.h" />
+    <ClInclude Include="Combo\Illaoi.h" />
+    <ClInclude Include="Combo\Irelia.h" />
+    <ClInclude Include="Combo\Janna.h" />
+    <ClInclude Include="Combo\Jarvan4.h" />
+    <ClInclude Include="Combo\Jax.h" />
+    <ClInclude Include="Combo\Jayce.h" />
+    <ClInclude Include="Combo\Jhin.h" />
+    <ClInclude Include="Combo\Jinx.h" />
+    <ClInclude Include="Combo\Kaisa.h" />
+    <ClInclude Include="Combo\Kalista.h" />
+    <ClInclude Include="Combo\Karma.h" />
+    <ClInclude Include="Combo\Karthus.h" />
+    <ClInclude Include="Combo\Kassadin.h" />
+    <ClInclude Include="Combo\Katarina.h" />
+    <ClInclude Include="Combo\Kayle.h" />
+    <ClInclude Include="Combo\Kennen.h" />
+    <ClInclude Include="Combo\Khazix.h" />
+    <ClInclude Include="Combo\Kindred.h" />
+    <ClInclude Include="Combo\KogMaw.h" />
+    <ClInclude Include="Combo\Leblanc.h" />
+    <ClInclude Include="Combo\LeeSin.h" />
+    <ClInclude Include="Combo\Lucian.h" />
+    <ClInclude Include="Combo\Lulu.h" />
+    <ClInclude Include="Combo\Lux.h" />
+    <ClInclude Include="Combo\Malphite.h" />
+    <ClInclude Include="Combo\Malzahar.h" />
+    <ClInclude Include="Combo\MasterYi.h" />
+    <ClInclude Include="Combo\MissFortune.h" />
+    <ClInclude Include="Combo\MonkeyKing.h" />
+    <ClInclude Include="Combo\Morgana.h" />
+    <ClInclude Include="Combo\Nami.h" />
+    <ClInclude Include="Combo\Nasus.h" />
+    <ClInclude Include="Combo\Nidalee.h" />
+    <ClInclude Include="Combo\Nocturne.h" />
+    <ClInclude Include="Combo\Nunu.h" />
+    <ClInclude Include="Combo\Olaf.h" />
+    <ClInclude Include="Combo\Orianna.h" />
+    <ClInclude Include="Combo\Pantheon.h" />
+    <ClInclude Include="Combo\Poppy.h" />
+    <ClInclude Include="Combo\Pyke.h" />
+    <ClInclude Include="Combo\Quinn.h" />
+    <ClInclude Include="Combo\Rakan.h" />
+    <ClInclude Include="Combo\Renekton.h" />
+    <ClInclude Include="Combo\Rengar.h" />
+    <ClInclude Include="Combo\Riven.h" />
+    <ClInclude Include="Combo\Ryze.h" />
+    <ClInclude Include="Combo\Shaco.h" />
+    <ClInclude Include="Combo\Singed.h" />
+    <ClInclude Include="Combo\Sivir.h" />
+    <ClInclude Include="Combo\SkillData.h" />
+    <ClInclude Include="Combo\Sona.h" />
+    <ClInclude Include="Combo\Soraka.h" />
+    <ClInclude Include="Combo\Swain.h" />
+    <ClInclude Include="Combo\Syndra.h" />
+    <ClInclude Include="Combo\Taliyah.h" />
+    <ClInclude Include="Combo\Talon.h" />
+    <ClInclude Include="Combo\Teemo.h" />
+    <ClInclude Include="Combo\Thresh.h" />
+    <ClInclude Include="Combo\Tristana.h" />
+    <ClInclude Include="Combo\Trundle.h" />
+    <ClInclude Include="Combo\Tryndamere.h" />
+    <ClInclude Include="Combo\TuDongKetLieu.h" />
+    <ClInclude Include="Combo\TwistedFate.h" />
+    <ClInclude Include="Combo\Twitch.h" />
+    <ClInclude Include="Combo\Varus.h" />
+    <ClInclude Include="Combo\Vayne.h" />
+    <ClInclude Include="Combo\Veigar.h" />
+    <ClInclude Include="Combo\Velkoz.h" />
+    <ClInclude Include="Combo\Viktor.h" />
+    <ClInclude Include="Combo\Vladimir.h" />
+    <ClInclude Include="Combo\Xayah.h" />
+    <ClInclude Include="Combo\Xerath.h" />
+    <ClInclude Include="Combo\XinZhao.h" />
+    <ClInclude Include="Combo\Yasuo.h" />
+    <ClInclude Include="Combo\Zed.h" />
+    <ClInclude Include="Combo\Ziggs.h" />
+    <ClInclude Include="Combo\Zilean.h" />
+    <ClInclude Include="Combo\Zoe.h" />
+    <ClInclude Include="Combo\Zyra.h" />
+    <ClInclude Include="Draw\Draw2D.h" />
+    <ClInclude Include="Draw\Draw_SpellData.h" />
+    <ClInclude Include="Draw\DrawCommon.h" />
+    <ClInclude Include="Draw\DrawEnemy.h" />
+    <ClInclude Include="Draw\Drawing.h" />
+    <ClInclude Include="Draw\DrawPlayer.h" />
+    <ClInclude Include="Draw\GuiMenu.h" />
+    <ClInclude Include="Draw\Lang.h" />
+    <ClInclude Include="Draw\Menu.h" />
+    <ClInclude Include="SDK\CommonFunc.h" />
+    <ClInclude Include="SDK\CORE_API.h" />
+    <ClInclude Include="SDK\L_Buff_Item.h" />
+    <ClInclude Include="SDK\L_Hero.h" />
+    <ClInclude Include="SDK\L_Spells.h" />
+    <ClInclude Include="SDK\L_Unit.h" />
+    <ClInclude Include="SDK\LDrawMenuTest.h" />
+    <ClInclude Include="SDK\LDrawObh.h" />
+    <ClInclude Include="SDK\lua_script.h" />
+    <ClInclude Include="SDK\LuaBuffs.h" />
+    <ClInclude Include="SDK\LuaCasting.h" />
+    <ClInclude Include="SDK\LuaDraw.h" />
+    <ClInclude Include="SDK\LuaItems.h" />
+    <ClInclude Include="SDK\LuaMoving.h" />
+    <ClInclude Include="SDK\LuaNpcAttribute.h" />
+    <ClInclude Include="SDK\LuaOrb.h" />
+    <ClInclude Include="SDK\LuaSpell.h" />
+    <ClInclude Include="SDK\LuaUtils.h" />
+    <ClInclude Include="SDK\OnEvent.h" />
+    <ClInclude Include="SDK\SearchObject.h" />
+    <ClInclude Include="SDK\TestMain.h" />
+    <ClInclude Include="OrbWalker\AoePred.h" />
+    <ClInclude Include="OrbWalker\Dash.h" />
+    <ClInclude Include="OrbWalker\Geometry.h" />
+    <ClInclude Include="OrbWalker\HealthPred.h" />
+    <ClInclude Include="OrbWalker\MEC.h" />
+    <ClInclude Include="OrbWalker\OrbSafe.h" />
+    <ClInclude Include="OrbWalker\OrbT_LHit.h" />
+    <ClInclude Include="OrbWalker\OrbWalker.h" />
+    <ClInclude Include="OrbWalker\Prediction.h" />
+    <ClInclude Include="OrbWalker\TargetSelector.h" />
+    <ClInclude Include="OrbWalker\WayPointAnalysis.h" />
+    <ClInclude Include="GUIMenu\imconfig.h" />
+    <ClInclude Include="GUIMenu\imgui.h" />
+    <ClInclude Include="GUIMenu\imgui_impl_dx9.h" />
+    <ClInclude Include="GUIMenu\imgui_internal.h" />
+    <ClInclude Include="GUIMenu\stb_rect_pack.h" />
+    <ClInclude Include="GUIMenu\stb_textedit.h" />
+    <ClInclude Include="GUIMenu\stb_truetype.h" />
+    <ClInclude Include="SDK_C\attb.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataString.txt" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
